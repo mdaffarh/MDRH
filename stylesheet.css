@@ -1,0 +1,252 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	background-image: url(https://wallpapercave.com/wp/wp2666508.jpg);
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	padding-top: 40px;
+	text-align: center;
+	width: 100%;
+	height: 585px;
+	margin: auto;
+	background-image: url(asset/background.jpg);
+	background-size: cover;
+	color: white;
+}
+.profile-pict{
+	padding-top: 50px;
+	width: 20%;
+}
+.contact-link a{
+	display: inline-block;
+	margin: 20px 20px;
+	width: 50px;
+	height: 50px;
+	transition: all 0.5s;
+	border-radius: 10px;
+}
+.contact-link a:hover,.menu-wrapper a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+  
+.menu-wrapper{
+	width: 100%;
+	height: 60px;
+	background-color: #242444;
+	text-align: center;
+	padding-top: 25px;
+	position:sticky;
+	top: 0;
+	opacity: 0.9;
+	z-index: 10;
+}
+.menu-wrapper a{
+	border-radius: 5px;
+	transition: all 0.5s;
+	color: white;
+	font-size: 24px;
+	margin: 30px 75px;
+}
+.main-wrapper{
+	width: 100%;
+	height: 720px;
+}
+
+.profile-wrapper{
+	width: 15%;
+	height: 100%;
+	float: left;
+	background-color: #46648c;
+	color: white;
+	font-weight: bolder;
+}
+.profile-wrapper h2{
+	width: 50%;
+	margin: 10px;
+	font-weight: lighter;
+}
+.right-wrapper{
+	width: 85%;
+	height: 100%;
+	float: left;
+	background-color: white;
+}
+.right-wrapper h2{
+	padding-top: 20px;
+}
+.content-desc{
+	margin: 20px;
+	width: 100%;
+}
+.school{
+	border-top: 1px white solid;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #242444;
+}
+footer p{
+	padding: 20px 0 0 20px;
+	color: white;
+	opacity: 0.5;
+}
+.home h1{
+	color: #2a3142;
+	font-size: 60px;
+}
+.home-header{
+	margin: 50px 50px 0px 50px;
+}
+
+.home-desc h2{
+	margin:0px 50px 0px 50px;
+	color: #61718a;
+	font-weight: lighter;
+}
+
+
+/*STYLE BAGIAN PROFILE------------------------------------------------------------------------------------------------------*/
+.profile{
+	text-align: center;
+	width: 100%;
+}
+.profile-pic{
+	width: 30%;
+}
+.profile-desc h2{
+	color: #2a3142;
+
+}
+.profile-bawah{
+	color: #2a3142;
+	text-align: justify;
+	padding: 20px 50px 20px 50px;
+	width: 85%;
+	display: inline-block;
+}
+.profile-comp{
+	width: 25%;
+	float: left;
+}
+.profile-comp h3{
+	font-weight: normal;
+}
+.profile-comp p{
+	font-weight:bold;
+}
+
+
+/*STYLE BAGIAN GALLERY*/
+.gallery{
+	margin: 30px 50px;
+}
+
+
+/*STYLE BAGIAN GUEST BOOK------------------------------------------------------------------------------------------------------*/
+.form-wrapper{
+	height: 100%;
+	width: 85%;
+	margin:0 150px;
+}
+.form-wrapper h4{
+	color: #242444;
+}
+.guest-header{
+	margin-top: 30px;
+	color: #242444;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+input[type=text], select, input[type=email]{
+ width: 85%;
+ padding: 15px 20px;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin: 20px 0;
+}
+
+input[type=submit],input[type=reset] {
+ width: 20%;
+ background-color: #46648c;
+ color: white;
+ padding: 15px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ opacity: 0.8;
+}
+input[type=submit]:hover,input[type=reset]:hover {
+	opacity: 1;
+}
+
+textarea {
+ width: 85%;
+ height: 150px;
+ padding: 15px 20px;
+ box-sizing: border-box;
+ border: 2px solid #ccc;
+ border-radius: 4px;
+ font-size: 16px;
+ resize: none;
+ margin:20px 0;
+}
+
+
+/*STYLE BAGIAN CONTACT------------------------------------------------------------------------------------------------------*/
+.contact-wrapper{
+	height: 100%;
+	width: 85%;
+	float: left;
+	background-color: white;
+	text-align: center;
+}
+.contact-heading{
+	color: #242444;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.btn-wrapper {
+	margin: 20px 0;
+}
+.btn {
+	padding: 12px 100px;
+	color: white;
+	display: block;
+	opacity: 0.8;
+	border-radius: 4px;
+	margin: 20px 300px 0px 300px;
+}
+.btn:hover {
+	opacity: 1;
+}
+.wa {
+	background-color: #239b76;
+}
+  
+.fb {
+	background-color: #3b5998;
+}
+  
+.ig {
+	background-color: #ed8975;
+}
+.fa{
+	margin-right: 15px;
+}
