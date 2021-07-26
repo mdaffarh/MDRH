@@ -7,7 +7,7 @@ a{
 	text-decoration: none;
 }
 body{
-	width: 1200px;
+	width: auto;
 	height: auto;
 	margin: auto;
 	background-image: url(https://wallpapercave.com/wp/wp2666508.jpg);
@@ -26,7 +26,7 @@ header{
 }
 .profile-pict{
 	padding-top: 50px;
-	width: 20%;
+	width: 15%;
 }
 .contact-link a{
 	display: inline-block;
@@ -157,7 +157,6 @@ footer p{
 
 /*STYLE BAGIAN GUEST BOOK------------------------------------------------------------------------------------------------------*/
 .form-wrapper{
-	height: 100%;
 	width: 85%;
 	margin:0 150px;
 }
@@ -207,6 +206,13 @@ textarea {
  resize: none;
  margin:20px 0;
 }
+.comment-section{
+	margin-top: 20px;
+}
+.comment-section a{
+	color:#242444 ;
+	font-weight: bolder;
+}
 
 
 /*STYLE BAGIAN CONTACT------------------------------------------------------------------------------------------------------*/
@@ -249,4 +255,19 @@ textarea {
 }
 .fa{
 	margin-right: 15px;
+}
+/*STYLE BAGIAN COMMENT------------------------------------------------------------------------------------------------------*/
+.table-wrapper{
+	margin: 50px;
+}
+.table-header{
+	color: #242444;
+}
+table, th, td {
+border: 1px solid #242444;
+}
+table{
+	margin-top: 20px;
+	width: 100%;
+	border-collapse: collapse;
 }

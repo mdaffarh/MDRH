@@ -15,11 +15,11 @@
 		</div>
 	</header>
 	<div class="menu-wrapper">
-		<a href="index.html">Home</a>
-        <a href="profile.html">Profile</a>
-        <a href="gallery.html">Gallery</a>
-		<a href="guest.html"><b>Guest Book</b></a>
-		<a href="contact.html">Contact</a>
+		<a href="index.php">Home</a>
+        <a href="profile.php">Profile</a>
+        <a href="gallery.php">Gallery</a>
+		<a href="guest.php"><b>Guest Book</b></a>
+		<a href="contact.php">Contact</a>
 	</div>
 	<div class="main-wrapper">
 		<div class="profile-wrapper" id="profile">
@@ -28,17 +28,21 @@
 		<div class="right-wrapper" id="about">
 			<h2 class="guest-header">Guest Book</h2>
 			<div class="form-wrapper">
-				<form method="post">
+				<form method="POST" action="add.php">
 					<h4>Name</h4>
-					<input type="text" size="50" placeholder="Yeh Shuhua">
+					<input type="text" name="name" size="50" placeholder="Yeh Shuhua">
 					<h4>Email</h4>
-					<input type="email" placeholder="email@address.com">
+					<input type="email" name="email" placeholder="email@address.com">
 					<h4>Comment</h4>
-					<textarea name="" id="" cols="50" rows="10" placeholder="Leave a message..."></textarea><br>
-					<input type="submit" value="Submit">
-					<input type="reset" value="Reset">
+					<textarea name="comment" id="" cols="50" rows="10" placeholder="Leave a message..."></textarea><br>
+					<input type="submit" name="submit" value="Submit">
+					<input type="reset" name="reset" value="Reset">
 				</form>
+				<div class="comment-section">
+					<a href="dataTable.php" target="_blank"> See your comment here...</a>
+				</div>
 			</div>
+			
 		</div>
 	</div>
 	<footer>
